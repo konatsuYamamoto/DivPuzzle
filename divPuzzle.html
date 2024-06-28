@@ -1,69 +1,40 @@
-@charset "utf-8";
-body {
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>課題</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/divPazzle.css">
+</head>
 
-.clearfix:after{
-  display: block;
-  clear: both;
-  }
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="flex">
+      <div class="clearfix">
+        <div class="red--box">
+          <div class="mixbox">
+            <div class="purple-box"></div>
+            <div class="purple-box"></div>
+            <div class="purple-box"></div>
+          </div>
+        </div>
+        <div class="green--box"></div>
+        <div class="blue--box">
+          <div class="mixbox2">
+            <div class="orange-box"></div>
+            <div class="orange-box"></div>
+            <div class="orange-box"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yellow--box"></div>
+  </main>
+  <footer>
+  </footer>
+</body>
 
-.flex {
-  display: flex;
-}
-.red--box {
-  width: 400px;
-  height: 100px;
-  background: #f00;
-}
-
-.mixbox {
-  display:flex;
-  float: right;
-  background-color: white;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.purple-box {
-  width: 40px;
-  height: 40px;
-  background-color: #6729a0;
-  margin: 10px;
-}
-
-.green--box {
-  width: 150px;
-  height: 250px;
-  background: #0a5;
-  float: left;
-}
-
-.blue--box {
-  width: 250px;
-  height: 250px;
-  background: #2563eb;
-  float: left;
-  position: relative;
-}
-
-.mixbox2 {
-  position: absolute;
-  top: 15%;
-  left: 15%;
-}
-
-.orange-box {
-  width: 140px;
-  height: 40px;
-  background-color: #ff863f;
-  border: 5px solid;
-  border-color: white;
-  margin: 10px;
-}
-
-.yellow--box {
-  width: 400px;
-  height: 100px;
-  background: #fd0;
-}
+</html>
